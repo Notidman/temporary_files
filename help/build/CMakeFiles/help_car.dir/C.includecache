@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/car.h
+
+/home/notidman/Prg/C/help/src/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+car.h
+/home/notidman/Prg/C/help/src/car.h
+

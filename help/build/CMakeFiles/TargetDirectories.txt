@@ -1,0 +1,3 @@
+/home/notidman/Prg/C/help/build/CMakeFiles/rebuild_cache.dir
+/home/notidman/Prg/C/help/build/CMakeFiles/edit_cache.dir
+/home/notidman/Prg/C/help/build/CMakeFiles/help_car.dir

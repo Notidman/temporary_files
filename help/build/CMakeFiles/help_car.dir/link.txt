@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/help_car.dir/src/main.c.o CMakeFiles/help_car.dir/src/car.c.o  -o help_car 
