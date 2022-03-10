@@ -17,14 +17,20 @@ main()
     storage[i] = init_car(mark[i], years[i], masses[i], speeds[i]); 
 	}
 
+	FILE *f_carDB = fopen("carDB.txt", "w");
 	for(size_t i = 0; i < STORAGE_SIZE; ++i)
 	{
-    printf("Auto %ld\n", i);
-    printf("mark:%s\nyear:%d\nmass:%lf\nspeed:%lf\n",
+    fprintf(f_carDB, "Car %ld\n", i);
+    fprintf(f_carDB, "mark:%s\nyear:%d\nmass:%lf\nspeed:%lf\n",
 										storage[i]->mark,
 										storage[i]->year,
 										storage[i]->mass,
 										storage[i]->speed);
+	}
+
+	if ((fclose(f_carDB)))
+	{
+    printf("Error: don't close file");
 	}
 
 	storage = free_storage(storage);

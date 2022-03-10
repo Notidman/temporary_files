@@ -1,0 +1,20 @@
+Car 0
+mark:Lada
+year:1996
+mass:190.000000
+speed:207.000000
+Car 1
+mark:Priora
+year:1999
+mass:450.000000
+speed:156.000000
+Car 2
+mark:Sidan
+year:2002
+mass:100.000000
+speed:189.000000
+Car 3
+mark:Subaru
+year:2003
+mass:240.000000
+speed:190.000000
