@@ -20,7 +20,7 @@ main()
 	FILE *f_carDB = fopen("carDB.txt", "w");
 	for(size_t i = 0; i < STORAGE_SIZE; ++i)
 	{
-    fprintf(f_carDB, "Car %ld\n", i);
+    fprintf(f_carDB, "!%ld car\n", i+1);
     fprintf(f_carDB, "mark:%s\nyear:%d\nmass:%lf\nspeed:%lf\n",
 										storage[i]->mark,
 										storage[i]->year,
@@ -31,6 +31,7 @@ main()
 	if ((fclose(f_carDB)))
 	{
     printf("Error: don't close file");
+		return 1;
 	}
 
 	storage = free_storage(storage);
