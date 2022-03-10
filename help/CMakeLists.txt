@@ -5,6 +5,7 @@ project(help_car)
 
 set( SRC 
 	src/main.c
+	src/storage.c
 	src/car.c)
 
 add_executable(${PROJECT_NAME} ${SRC})

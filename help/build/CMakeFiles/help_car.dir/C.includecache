@@ -8,13 +8,17 @@
 
 ../inc/car.h
 
-/home/notidman/Prg/C/help/src/main.c
+../inc/storage.h
+car.h
+../inc/car.h
+
+/home/notidman/Prg/C/temporary_files/help/src/main.c
 stdio.h
 -
 stdlib.h
 -
 string.h
 -
-car.h
-/home/notidman/Prg/C/help/src/car.h
+storage.h
+/home/notidman/Prg/C/temporary_files/help/src/storage.h
 

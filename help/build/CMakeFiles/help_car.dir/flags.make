@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/notidman/Prg/C/help/inc 
+C_INCLUDES = -I/home/notidman/Prg/C/temporary_files/help/inc 
 

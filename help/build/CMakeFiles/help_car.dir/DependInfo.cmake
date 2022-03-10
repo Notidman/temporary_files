@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/notidman/Prg/C/help/src/car.c" "/home/notidman/Prg/C/help/build/CMakeFiles/help_car.dir/src/car.c.o"
-  "/home/notidman/Prg/C/help/src/main.c" "/home/notidman/Prg/C/help/build/CMakeFiles/help_car.dir/src/main.c.o"
+  "/home/notidman/Prg/C/temporary_files/help/src/car.c" "/home/notidman/Prg/C/temporary_files/help/build/CMakeFiles/help_car.dir/src/car.c.o"
+  "/home/notidman/Prg/C/temporary_files/help/src/main.c" "/home/notidman/Prg/C/temporary_files/help/build/CMakeFiles/help_car.dir/src/main.c.o"
+  "/home/notidman/Prg/C/temporary_files/help/src/storage.c" "/home/notidman/Prg/C/temporary_files/help/build/CMakeFiles/help_car.dir/src/storage.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

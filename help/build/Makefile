@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/notidman/Prg/C/help
+CMAKE_SOURCE_DIR = /home/notidman/Prg/C/temporary_files/help
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/notidman/Prg/C/help/build
+CMAKE_BINARY_DIR = /home/notidman/Prg/C/temporary_files/help/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/notidman/Prg/C/help/build/CMakeFiles /home/notidman/Prg/C/help/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/notidman/Prg/C/temporary_files/help/build/CMakeFiles /home/notidman/Prg/C/temporary_files/help/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/notidman/Prg/C/help/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/notidman/Prg/C/temporary_files/help/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,33 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/help_car.dir/build.make CMakeFiles/help_car.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/storage.o: src/storage.c.o
+
+.PHONY : src/storage.o
+
+# target to build an object file
+src/storage.c.o:
+	$(MAKE) -f CMakeFiles/help_car.dir/build.make CMakeFiles/help_car.dir/src/storage.c.o
+.PHONY : src/storage.c.o
+
+src/storage.i: src/storage.c.i
+
+.PHONY : src/storage.i
+
+# target to preprocess a source file
+src/storage.c.i:
+	$(MAKE) -f CMakeFiles/help_car.dir/build.make CMakeFiles/help_car.dir/src/storage.c.i
+.PHONY : src/storage.c.i
+
+src/storage.s: src/storage.c.s
+
+.PHONY : src/storage.s
+
+# target to generate assembly for a file
+src/storage.c.s:
+	$(MAKE) -f CMakeFiles/help_car.dir/build.make CMakeFiles/help_car.dir/src/storage.c.s
+.PHONY : src/storage.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/storage.o"
+	@echo "... src/storage.i"
+	@echo "... src/storage.s"
 .PHONY : help
 
 

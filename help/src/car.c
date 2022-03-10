@@ -1,6 +1,7 @@
 #include "car.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 struct Car* init_car(char *mark, unsigned int year, double mass, double speed)
 {
@@ -11,10 +12,15 @@ struct Car* init_car(char *mark, unsigned int year, double mass, double speed)
     printf("Error: memory alloc");
   }
 
-  if( !( new_car->mark = (char*)malloc( sizeof(char) * 30) ) )
+  if( !( new_car->mark = (char*)malloc( sizeof(char) * MARK_SIZE) ) )
   {
     printf("Error: memory alloc");
   }
+  
+	strcpy(new_car->mark, mark);
+	new_car->year = year;
+	new_car->mass = mass;
+  new_car->speed = speed;
 
   return new_car;
 

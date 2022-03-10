@@ -1,11 +1,12 @@
 #ifndef _CAR_H_
 #define _CAR_H_
+#define MARK_SIZE 30
 
 typedef struct Car
 {
   char *mark;
   unsigned int year;
-  double mas;
+  double mass;
   double speed;
 } s_car;
 
