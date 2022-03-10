@@ -8,7 +8,7 @@ s_car** init_storage()
 
   if( !( storage = (struct Car**)malloc( sizeof(struct Car*) * STORAGE_SIZE ) ))
   {
-    printf("Error: memory alloc");
+    printf("Error: memory alloc\n");
   }
 
 	return storage;

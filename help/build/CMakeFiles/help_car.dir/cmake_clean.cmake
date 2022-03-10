@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/help_car.dir/src/car.c.o"
+  "CMakeFiles/help_car.dir/src/car.c.o.d"
   "CMakeFiles/help_car.dir/src/main.c.o"
+  "CMakeFiles/help_car.dir/src/main.c.o.d"
   "CMakeFiles/help_car.dir/src/storage.c.o"
+  "CMakeFiles/help_car.dir/src/storage.c.o.d"
   "help_car"
   "help_car.pdb"
 )

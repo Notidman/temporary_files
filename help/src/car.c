@@ -9,12 +9,12 @@ struct Car* init_car(char *mark, unsigned int year, double mass, double speed)
 
   if( !( new_car = (struct Car*)malloc( sizeof(struct Car)) ) )
   {
-    printf("Error: memory alloc");
+    printf("Error: memory alloc\n");
   }
 
   if( !( new_car->mark = (char*)malloc( sizeof(char) * MARK_SIZE) ) )
   {
-    printf("Error: memory alloc");
+    printf("Error: memory alloc\n");
   }
   
 	strcpy(new_car->mark, mark);
