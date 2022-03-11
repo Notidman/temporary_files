@@ -84,6 +84,7 @@ CMakeFiles/help_car.dir/src/main.c.o: ../src/main.c \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
@@ -176,6 +177,8 @@ CMakeFiles/help_car.dir/src/storage.c.o: ../src/storage.c \
 
 ../src/storage.c:
 
+../inc/storage.h:
+
 /usr/include/bits/waitstatus.h:
 
 /usr/include/bits/waitflags.h:
@@ -203,6 +206,8 @@ CMakeFiles/help_car.dir/src/storage.c.o: ../src/storage.c \
 /usr/include/sys/cdefs.h:
 
 /usr/include/bits/types.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdbool.h:
 
 ../src/car.c:
 
@@ -291,5 +296,3 @@ CMakeFiles/help_car.dir/src/storage.c.o: ../src/storage.c \
 /usr/include/bits/types/__locale_t.h:
 
 ../src/main.c:
-
-../inc/storage.h:

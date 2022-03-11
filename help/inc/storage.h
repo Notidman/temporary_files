@@ -2,7 +2,7 @@
 #define _STORAGE_H_
 #include "car.h"
 
-#define STORAGE_SIZE 4
+#define STORAGE_SIZE 5
 
 s_car** init_storage();
 

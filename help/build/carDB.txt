@@ -4,6 +4,11 @@ mass : 190.000000
 speed : 207.000000
 
 mark : Priora
+year : 1874
+mass : 340.000000
+speed : 124.000000
+
+mark : Lada
 year : 1999
 mass : 450.000000
 speed : 156.000000
