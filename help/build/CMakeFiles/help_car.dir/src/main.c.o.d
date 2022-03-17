@@ -1,5 +1,5 @@
 CMakeFiles/help_car.dir/src/main.c.o: \
- /home/notidman/Prog/C/temporary_files/help/src/main.c \
+ /home/notidman/Prg/C/temporary_files/help/src/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
@@ -32,5 +32,5 @@ CMakeFiles/help_car.dir/src/main.c.o: \
  /usr/include/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/notidman/Prog/C/temporary_files/help/inc/storage.h \
- /home/notidman/Prog/C/temporary_files/help/inc/car.h
+ /home/notidman/Prg/C/temporary_files/help/inc/storage.h \
+ /home/notidman/Prg/C/temporary_files/help/inc/car.h

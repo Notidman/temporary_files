@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/notidman/Prog/C/temporary_files/help/inc
+C_INCLUDES = -I/home/notidman/Prg/C/temporary_files/help/inc
 
 C_FLAGS = 
 

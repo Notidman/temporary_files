@@ -1,11 +1,11 @@
 CMakeFiles/help_car.dir/src/car.c.o: \
- /home/notidman/Prog/C/temporary_files/help/src/car.c \
+ /home/notidman/Prg/C/temporary_files/help/src/car.c \
  /usr/include/stdc-predef.h \
- /home/notidman/Prog/C/temporary_files/help/inc/car.h \
- /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/sys/cdefs.h \
- /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /home/notidman/Prg/C/temporary_files/help/inc/car.h /usr/include/stdio.h \
+ /usr/include/bits/libc-header-start.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdarg.h \
  /usr/include/bits/types.h /usr/include/bits/timesize.h \

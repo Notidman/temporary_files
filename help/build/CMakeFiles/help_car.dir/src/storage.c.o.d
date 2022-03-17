@@ -1,5 +1,5 @@
 CMakeFiles/help_car.dir/src/storage.c.o: \
- /home/notidman/Prog/C/temporary_files/help/src/storage.c \
+ /home/notidman/Prg/C/temporary_files/help/src/storage.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
@@ -29,5 +29,5 @@ CMakeFiles/help_car.dir/src/storage.c.o: \
  /usr/include/bits/pthreadtypes-arch.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h \
- /home/notidman/Prog/C/temporary_files/help/inc/storage.h \
- /home/notidman/Prog/C/temporary_files/help/inc/car.h
+ /home/notidman/Prg/C/temporary_files/help/inc/storage.h \
+ /home/notidman/Prg/C/temporary_files/help/inc/car.h

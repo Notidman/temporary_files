@@ -84,9 +84,12 @@ void find_max_speed_car(const char *name_file)
   size_t find_count = 0;
 
   // find all speeds
-  for(size_t i = 0; !(feof(f)) ; ++i)
+  while(1)
   {
-    fscanf(f, "%s : %s", type, value);
+    if( fscanf(f, "%s : %s", type, value) != 2 )
+    {
+      break;
+    }
     
     if( !(strcmp(type, "speed")) )
     {
@@ -126,9 +129,12 @@ void all_mark_cars(const char *name_file)
   size_t find_count = 0;
 
   // find marks
-  for(size_t i = 0; !(feof(f)) ; ++i)
+  while(1)
   {
-    fscanf(f, "%s : %s", type, mark_name);
+    if( fscanf(f, "%s : %s", type, mark_name) != 2 )
+    {
+      break;
+    }
     
     if( !(strcmp(type, "mark")) )
     {
@@ -166,9 +172,12 @@ void old_max_speed_cars(const char *name_file)
   size_t find_count = 0;
 
   // find years
-  for(size_t i = 0; !(feof(f)) ; ++i)
+  while(1)
   {
-    fscanf(f, "%s : %s", type, year);
+    if( fscanf(f, "%s : %s", type, year) != 2 )
+    {
+      break;
+    }
     
     if( !(strcmp(type, "year")) )
     {
@@ -184,9 +193,12 @@ void old_max_speed_cars(const char *name_file)
   find_count = 0;
 
   // find all speeds
-  for(size_t i = 0; !(feof(f)) ; ++i)
+  while(1)
   {
-    fscanf(f, "%s : %s", type, value);
+    if( fscanf(f, "%s : %s", type, value) != 2)
+    {
+      break;
+    }
     
     if( !(strcmp(type, "speed")) )
     {
@@ -225,9 +237,12 @@ void list_new_most_weight(const char *name_file)
   size_t find_count = 0;
 
   // find mass
-  for(size_t i = 0; !(feof(f)) ; ++i)
+  while(1)
   {
-    fscanf(f, "%s : %s", type, mass);
+    if( fscanf(f, "%s : %s", type, mass) != 2)
+    {
+      break;
+    }
     
     if( !(strcmp(type, "mass")) )
     {
@@ -241,9 +256,12 @@ void list_new_most_weight(const char *name_file)
   find_count = 0;
 
   // find marks
-  for(size_t i = 0; !(feof(f)) ; ++i)
+  while(1)
   {
-    fscanf(f, "%s : %s", type, mark_name);
+    if( fscanf(f, "%s : %s", type, mark_name) != 2)
+    {
+      break;
+    }
     
     if( !(strcmp(type, "mark")) )
     {
